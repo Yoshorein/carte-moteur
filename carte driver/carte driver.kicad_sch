@@ -5921,7 +5921,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 212.09 151.13 90)
+		(at 240.03 142.24 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5930,7 +5930,7 @@
 		(fields_autoplaced yes)
 		(uuid "1d90785a-d65a-4de5-8cb2-320f9e17cf05")
 		(property "Reference" "#PWR015"
-			(at 215.9 151.13 0)
+			(at 243.84 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5939,7 +5939,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 208.28 151.1299 90)
+			(at 236.22 142.2399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5948,7 +5948,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 212.09 151.13 0)
+			(at 240.03 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5957,7 +5957,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.09 151.13 0)
+			(at 240.03 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5966,7 +5966,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 212.09 151.13 0)
+			(at 240.03 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6398,7 +6398,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 212.09 156.21 270)
+		(at 240.03 144.78 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6407,7 +6407,7 @@
 		(fields_autoplaced yes)
 		(uuid "3e2b00fe-4c32-4c00-8b7d-21bd7b7e191d")
 		(property "Reference" "#PWR04"
-			(at 205.74 156.21 0)
+			(at 233.68 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6416,7 +6416,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 208.28 156.2099 90)
+			(at 236.22 144.7799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6425,7 +6425,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 212.09 156.21 0)
+			(at 240.03 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6434,7 +6434,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.09 156.21 0)
+			(at 240.03 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6443,7 +6443,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 212.09 156.21 0)
+			(at 240.03 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8510,6 +8510,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 240.03 152.4 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b5beee7-5d6e-4cbb-a7d4-efbaa371d413")
+		(property "Reference" "#PWR08"
+			(at 233.68 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 236.22 152.3999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 240.03 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3247da75-a849-46ce-8cc8-fcf5c82adec7")
+		)
+		(instances
+			(project "carte driver"
+				(path "/78588076-997a-4987-8ae5-538bbbdafc63"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 140.97 144.78 0)
 		(unit 1)
@@ -8785,7 +8852,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 212.09 153.67 90)
+		(at 240.03 149.86 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8794,7 +8861,7 @@
 		(fields_autoplaced yes)
 		(uuid "8beb5442-ccbf-4e15-9ac9-4a3dfc725cb7")
 		(property "Reference" "#PWR01"
-			(at 215.9 153.67 0)
+			(at 243.84 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8803,7 +8870,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 208.28 153.6699 90)
+			(at 236.22 149.8599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8812,7 +8879,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 212.09 153.67 0)
+			(at 240.03 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8821,7 +8888,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.09 153.67 0)
+			(at 240.03 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8830,7 +8897,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 212.09 153.67 0)
+			(at 240.03 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9262,6 +9329,76 @@
 			(project "carte driver"
 				(path "/78588076-997a-4987-8ae5-538bbbdafc63"
 					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 245.11 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1f2d32d-734a-4cbf-9c19-b9ee21c4d479")
+		(property "Reference" "J12"
+			(at 247.65 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 247.65 152.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_AMASS:AMASS_XT60-F_1x02_P7.20mm_Vertical"
+			(at 245.11 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 245.11 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 245.11 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d3ce112-b2a7-4812-b838-a59971899e73")
+		)
+		(pin "2"
+			(uuid "20d31863-6ecb-4590-9133-a5b9ad76cc4c")
+		)
+		(instances
+			(project "carte driver"
+				(path "/78588076-997a-4987-8ae5-538bbbdafc63"
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -11624,6 +11761,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 245.11 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3d45a23-6a64-40a4-9b1e-878616271878")
+		(property "Reference" "J5"
+			(at 247.65 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 247.65 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical"
+			(at 245.11 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 245.11 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 245.11 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0222d2a3-e74a-4887-9a93-c97dabe6afa2")
+		)
+		(pin "2"
+			(uuid "3a0ecdad-5b40-46b6-b6d2-a0fd4753c3e6")
+		)
+		(instances
+			(project "carte driver"
+				(path "/78588076-997a-4987-8ae5-538bbbdafc63"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 175.26 97.79 0)
 		(unit 1)
@@ -12266,79 +12473,6 @@
 			(project "carte driver"
 				(path "/78588076-997a-4987-8ae5-538bbbdafc63"
 					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 217.17 153.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f4ac454b-8313-4bcc-b4e1-c5737b834322")
-		(property "Reference" "J2"
-			(at 219.71 152.3999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x03"
-			(at 219.71 154.9399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical"
-			(at 217.17 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 217.17 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 217.17 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c8bf2e6d-3bb5-4c62-8e2e-f25bc693350f")
-		)
-		(pin "3"
-			(uuid "24bc4746-f54f-4310-b9a7-5b0bca39dcff")
-		)
-		(pin "1"
-			(uuid "5cf26da6-5a33-4cf8-94b0-062938fbb86b")
-		)
-		(instances
-			(project ""
-				(path "/78588076-997a-4987-8ae5-538bbbdafc63"
-					(reference "J2")
 					(unit 1)
 				)
 			)
