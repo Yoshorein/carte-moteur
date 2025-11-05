@@ -5921,7 +5921,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 240.03 142.24 90)
+		(at 245.11 138.43 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5930,7 +5930,7 @@
 		(fields_autoplaced yes)
 		(uuid "1d90785a-d65a-4de5-8cb2-320f9e17cf05")
 		(property "Reference" "#PWR015"
-			(at 243.84 142.24 0)
+			(at 248.92 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5939,7 +5939,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 236.22 142.2399 90)
+			(at 241.3 138.4299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5948,7 +5948,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 240.03 142.24 0)
+			(at 245.11 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5957,7 +5957,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 142.24 0)
+			(at 245.11 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5966,7 +5966,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 240.03 142.24 0)
+			(at 245.11 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5978,7 +5978,7 @@
 			(uuid "e94de4b7-e833-4275-84e0-cad91ec102e6")
 		)
 		(instances
-			(project ""
+			(project "carte driver"
 				(path "/78588076-997a-4987-8ae5-538bbbdafc63"
 					(reference "#PWR015")
 					(unit 1)
@@ -6398,7 +6398,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 240.03 144.78 270)
+		(at 245.11 135.89 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6407,7 +6407,7 @@
 		(fields_autoplaced yes)
 		(uuid "3e2b00fe-4c32-4c00-8b7d-21bd7b7e191d")
 		(property "Reference" "#PWR04"
-			(at 233.68 144.78 0)
+			(at 238.76 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6416,7 +6416,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 236.22 144.7799 90)
+			(at 241.3 135.8899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6425,7 +6425,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 240.03 144.78 0)
+			(at 245.11 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6434,7 +6434,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 144.78 0)
+			(at 245.11 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6443,7 +6443,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 240.03 144.78 0)
+			(at 245.11 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6455,7 +6455,7 @@
 			(uuid "19fee7e5-9202-40d4-b067-f3b5ee224898")
 		)
 		(instances
-			(project ""
+			(project "carte driver"
 				(path "/78588076-997a-4987-8ae5-538bbbdafc63"
 					(reference "#PWR04")
 					(unit 1)
@@ -6834,7 +6834,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 212.09 144.78 270)
+		(at 245.11 144.78 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6843,7 +6843,7 @@
 		(fields_autoplaced yes)
 		(uuid "4d6bea16-7f3b-4c35-8677-c88cc22f5f2d")
 		(property "Reference" "#PWR016"
-			(at 205.74 144.78 0)
+			(at 238.76 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6852,7 +6852,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 208.28 144.7799 90)
+			(at 241.3 144.7799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6861,7 +6861,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 212.09 144.78 0)
+			(at 245.11 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6870,7 +6870,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.09 144.78 0)
+			(at 245.11 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6879,7 +6879,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 212.09 144.78 0)
+			(at 245.11 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8511,7 +8511,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 240.03 152.4 270)
+		(at 245.11 148.59 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8520,7 +8520,7 @@
 		(fields_autoplaced yes)
 		(uuid "7b5beee7-5d6e-4cbb-a7d4-efbaa371d413")
 		(property "Reference" "#PWR08"
-			(at 233.68 152.4 0)
+			(at 238.76 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8529,7 +8529,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 236.22 152.3999 90)
+			(at 241.3 148.5899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8538,7 +8538,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 240.03 152.4 0)
+			(at 245.11 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8547,7 +8547,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 152.4 0)
+			(at 245.11 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8556,7 +8556,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 240.03 152.4 0)
+			(at 245.11 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8852,7 +8852,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 240.03 149.86 90)
+		(at 245.11 151.13 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8861,7 +8861,7 @@
 		(fields_autoplaced yes)
 		(uuid "8beb5442-ccbf-4e15-9ac9-4a3dfc725cb7")
 		(property "Reference" "#PWR01"
-			(at 243.84 149.86 0)
+			(at 248.92 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8870,7 +8870,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 236.22 149.8599 90)
+			(at 241.3 151.1299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8879,7 +8879,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 240.03 149.86 0)
+			(at 245.11 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8888,7 +8888,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 149.86 0)
+			(at 245.11 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8897,7 +8897,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 240.03 149.86 0)
+			(at 245.11 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8919,7 +8919,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 217.17 142.24 0)
+		(at 250.19 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8928,7 +8928,7 @@
 		(fields_autoplaced yes)
 		(uuid "8f490336-f8ba-4679-9d23-193c9078bec1")
 		(property "Reference" "J4"
-			(at 219.71 142.2399 0)
+			(at 252.73 142.2399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8936,8 +8936,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02"
-			(at 219.71 144.7799 0)
+		(property "Value" "conn 5v"
+			(at 252.73 144.7799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8946,7 +8946,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
-			(at 217.17 142.24 0)
+			(at 250.19 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8955,7 +8955,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 217.17 142.24 0)
+			(at 250.19 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8964,7 +8964,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 217.17 142.24 0)
+			(at 250.19 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9336,7 +9336,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 245.11 149.86 0)
+		(at 250.19 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9345,7 +9345,7 @@
 		(fields_autoplaced yes)
 		(uuid "b1f2d32d-734a-4cbf-9c19-b9ee21c4d479")
 		(property "Reference" "J12"
-			(at 247.65 149.8599 0)
+			(at 252.73 148.5899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9353,8 +9353,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02"
-			(at 247.65 152.3999 0)
+		(property "Value" "conn 24v"
+			(at 252.73 151.1299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9363,7 +9363,7 @@
 			)
 		)
 		(property "Footprint" "Connector_AMASS:AMASS_XT60-F_1x02_P7.20mm_Vertical"
-			(at 245.11 149.86 0)
+			(at 250.19 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9372,7 +9372,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 245.11 149.86 0)
+			(at 250.19 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9381,7 +9381,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 245.11 149.86 0)
+			(at 250.19 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11421,7 +11421,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 212.09 142.24 90)
+		(at 245.11 142.24 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11430,7 +11430,7 @@
 		(fields_autoplaced yes)
 		(uuid "d553ecf6-793e-44de-b1dd-07ec76983e19")
 		(property "Reference" "#PWR02"
-			(at 215.9 142.24 0)
+			(at 248.92 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11439,7 +11439,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 208.28 142.2399 90)
+			(at 241.3 142.2399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11448,7 +11448,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 212.09 142.24 0)
+			(at 245.11 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11457,7 +11457,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.09 142.24 0)
+			(at 245.11 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11466,7 +11466,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 212.09 142.24 0)
+			(at 245.11 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11762,7 +11762,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 245.11 142.24 0)
+		(at 250.19 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11771,7 +11771,7 @@
 		(fields_autoplaced yes)
 		(uuid "e3d45a23-6a64-40a4-9b1e-878616271878")
 		(property "Reference" "J5"
-			(at 247.65 142.2399 0)
+			(at 252.73 135.8899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11779,8 +11779,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02"
-			(at 247.65 144.7799 0)
+		(property "Value" "conn 3.3v"
+			(at 252.73 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11789,7 +11789,7 @@
 			)
 		)
 		(property "Footprint" "Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical"
-			(at 245.11 142.24 0)
+			(at 250.19 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11798,7 +11798,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 245.11 142.24 0)
+			(at 250.19 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11807,7 +11807,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 245.11 142.24 0)
+			(at 250.19 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
