@@ -4621,28 +4621,6 @@
 			)
 		)
 	)
-	(global_label "DIR 5"
-		(shape input)
-		(at 115.57 175.26 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "080a5c12-9198-464e-883a-114c754bb8f6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.3284 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "STEP 4"
 		(shape input)
 		(at 43.18 90.17 180)
@@ -4656,6 +4634,28 @@
 		(uuid "081dffdb-c1cb-4558-9686-17d65477232a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 33.4216 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "STEP 6"
+		(shape input)
+		(at 54.61 142.24 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0894657e-85f9-4723-8045-9b0eed0e45b4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 44.8516 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4687,28 +4687,6 @@
 			)
 		)
 	)
-	(global_label "EN"
-		(shape input)
-		(at 115.57 170.18 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0aad45e8-0aa7-4871-ad3e-e4df93bff6ca")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.0347 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "DIR 4"
 		(shape input)
 		(at 43.18 92.71 180)
@@ -4731,28 +4709,6 @@
 			)
 		)
 	)
-	(global_label "STEP 5"
-		(shape input)
-		(at 115.57 157.48 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1161371e-7fa4-4927-87d0-a6c8c85f5d8e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.8771 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "EN"
 		(shape input)
 		(at 120.65 85.09 180)
@@ -4766,28 +4722,6 @@
 		(uuid "215c6c8a-0687-4d9b-9ac0-8b18b1988a82")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 115.1853 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DIR 3"
-		(shape input)
-		(at 54.61 180.34 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "26134aef-5116-4b9f-9e5e-1a5a2cb4e6b8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.8516 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4907,9 +4841,53 @@
 			)
 		)
 	)
-	(global_label "TX"
+	(global_label "STEP 4"
 		(shape input)
-		(at 54.61 165.1 180)
+		(at 115.57 161.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5283d99e-d0ea-47d2-96d6-00706dae94ff")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 125.3284 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DIR 4"
+		(shape input)
+		(at 115.57 172.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5506b6b3-0aea-430f-a5a9-786444921a8d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 123.8771 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "STEP 2"
+		(shape input)
+		(at 54.61 153.67 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4917,9 +4895,9 @@
 			)
 			(justify right)
 		)
-		(uuid "643dac11-106b-4055-9cfd-3b4f6a628384")
+		(uuid "5cb0c228-34ab-438d-8595-195a5f28247d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 49.4477 165.1 0)
+			(at 44.8516 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4929,7 +4907,29 @@
 			)
 		)
 	)
-	(global_label "EN"
+	(global_label "TX"
+		(shape input)
+		(at 54.61 180.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5dc2659a-5708-4209-ba49-60b038dbad36")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 49.4477 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EN M"
 		(shape input)
 		(at 198.12 83.82 180)
 		(fields_autoplaced yes)
@@ -4941,7 +4941,7 @@
 		)
 		(uuid "6ca932e6-5dc9-4da2-a6f2-63f6d0478300")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 192.6553 83.82 0)
+			(at 190.2363 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4973,9 +4973,9 @@
 			)
 		)
 	)
-	(global_label "DIR 4"
+	(global_label "RX"
 		(shape input)
-		(at 54.61 146.05 180)
+		(at 54.61 177.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4983,9 +4983,9 @@
 			)
 			(justify right)
 		)
-		(uuid "77425469-3078-493a-ab77-baa3f4057266")
+		(uuid "76a054ca-1fc4-4604-9aa1-3070d71b470b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.8516 146.05 0)
+			(at 49.1453 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4995,9 +4995,9 @@
 			)
 		)
 	)
-	(global_label "STEP 3"
+	(global_label "STEP 1"
 		(shape input)
-		(at 54.61 182.88 180)
+		(at 54.61 149.86 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5005,9 +5005,9 @@
 			)
 			(justify right)
 		)
-		(uuid "822d554a-59fa-425f-b36f-396196222b9f")
+		(uuid "81af3fad-3c5b-4a9f-acb7-c1239b96cd57")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 46.3029 182.88 0)
+			(at 44.8516 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5061,29 +5061,29 @@
 			)
 		)
 	)
-	(global_label "DIR 1"
+	(global_label "DIR 5"
 		(shape input)
-		(at 54.61 153.67 180)
+		(at 115.57 175.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "9dc3f6f2-2006-4886-ad46-0284777c9a8d")
+		(uuid "9c3bce58-68c0-4ecf-92b8-755456fcaf50")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 46.3029 153.67 0)
+			(at 125.3284 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
 	)
-	(global_label "EN M"
+	(global_label "EN"
 		(shape input)
 		(at 43.18 85.09 180)
 		(fields_autoplaced yes)
@@ -5095,51 +5095,7 @@
 		)
 		(uuid "9eb9dbc1-2caa-42ac-8b6f-00fc84b04b5a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 35.2963 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "STEP 4"
-		(shape input)
-		(at 54.61 142.24 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a2dd0499-5945-4627-af17-a21027cc719f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 46.3029 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "STEP 1"
-		(shape input)
-		(at 54.61 149.86 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a37feb15-14f8-46d1-a976-82e64c9041f1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.8516 149.86 0)
+			(at 37.7153 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5151,29 +5107,7 @@
 	)
 	(global_label "DIR 6"
 		(shape input)
-		(at 115.57 172.72 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a4013971-4eff-4bbc-80d2-c45d6b77bb4f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.8771 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DIR 2"
-		(shape input)
-		(at 54.61 161.29 180)
+		(at 54.61 146.05 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5181,14 +5115,36 @@
 			)
 			(justify right)
 		)
-		(uuid "b3bef347-bd7e-4ce6-92cb-f357f6f9512b")
+		(uuid "a0813490-bf89-4a92-be94-1e53300b2245")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 46.3029 161.29 0)
+			(at 46.3029 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EN M"
+		(shape input)
+		(at 115.57 153.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b224ad09-a923-44e8-9dbc-3df97e275d7a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 123.4537 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5215,9 +5171,9 @@
 			)
 		)
 	)
-	(global_label "EN M"
+	(global_label "EN"
 		(shape input)
-		(at 115.57 153.67 0)
+		(at 115.57 170.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5225,14 +5181,36 @@
 			)
 			(justify left)
 		)
-		(uuid "b64cb0f5-5abb-421a-b7a4-5ad8a6278a59")
+		(uuid "b42db070-607b-4298-8767-6d4d5eaca268")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.4537 153.67 0)
+			(at 121.0347 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "STEP 3"
+		(shape input)
+		(at 54.61 182.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b55fbac2-3c8f-4c3e-875c-302f4cc2b012")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 46.3029 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5325,24 +5303,46 @@
 			)
 		)
 	)
-	(global_label "RX"
+	(global_label "DIR 3"
 		(shape input)
-		(at 115.57 165.1 0)
+		(at 54.61 161.29 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "de1881b5-09bd-4ac1-80ca-7777f87b4045")
+		(uuid "dd234d02-7fcc-4f4a-8962-8fca154dcad9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.0347 165.1 0)
+			(at 44.8516 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DIR 1"
+		(shape input)
+		(at 54.61 175.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e4a31642-18fb-41e4-950d-dc5fb175f6b2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 46.3029 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5369,9 +5369,9 @@
 			)
 		)
 	)
-	(global_label "STEP 6"
+	(global_label "STEP 5"
 		(shape input)
-		(at 115.57 161.29 0)
+		(at 115.57 157.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5379,14 +5379,36 @@
 			)
 			(justify left)
 		)
-		(uuid "ef97ab95-30a7-43e2-b95c-d39e794a3db3")
+		(uuid "f7e56fb5-d46f-4719-9356-f5a2051af2c6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.3284 161.29 0)
+			(at 123.8771 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DIR 2"
+		(shape input)
+		(at 54.61 157.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f955e5cd-10c1-44e8-aace-6e6e1eded0e3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 46.3029 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5448,28 +5470,6 @@
 		(uuid "fcdafc12-c552-4bb7-bbae-b7ab1f837a1e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 189.8129 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "STEP 2"
-		(shape input)
-		(at 54.61 157.48 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ffadfe22-86bf-46d8-85ca-2aae683ed9a9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.8516 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7404,72 +7404,6 @@
 			(project "carte driver v3"
 				(path "/9d85c972-d397-461b-a0a3-430fdedc0c18"
 					(reference "#PWR044")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 167.64 184.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5936be11-e50b-4ced-96e4-84ac5afa6899")
-		(property "Reference" "#PWR042"
-			(at 167.64 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 167.64 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 167.64 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 167.64 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "69b4732b-0a54-4204-ab5b-5e4f37aae1a1")
-		)
-		(instances
-			(project "carte driver v3"
-				(path "/9d85c972-d397-461b-a0a3-430fdedc0c18"
-					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -10600,7 +10534,7 @@
 		(dnp no)
 		(uuid "bec753f2-9e9f-4e1e-a46a-ade2cc99834a")
 		(property "Reference" "R2"
-			(at 50.8 174.752 90)
+			(at 50.8 174.498 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11101,73 +11035,6 @@
 			(project "carte driver v3"
 				(path "/9d85c972-d397-461b-a0a3-430fdedc0c18"
 					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 167.64 181.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c70579cf-9ddf-4ebf-afba-7da31fc84ebe")
-		(property "Reference" "H4"
-			(at 166.624 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 168.656 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 167.64 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 167.64 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 167.64 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f9d6d1fd-3059-44d3-a1a4-e8938ef44d92")
-		)
-		(instances
-			(project "carte driver v3"
-				(path "/9d85c972-d397-461b-a0a3-430fdedc0c18"
-					(reference "H4")
 					(unit 1)
 				)
 			)
